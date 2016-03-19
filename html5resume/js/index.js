@@ -30,7 +30,7 @@ var numb = 0;
 function fnLoad() {
     var progress = getEle(".progress");
     var loading = getEle("#loading");
-    var arr = ['bg.jpg', 'contbg.jpg', 'contbg1.jpg', 'topbg.jpg', 'Untitled.gif', 'bottom.png'];
+    var arr = ['bg.jpg', 'contbg.jpg', 'contbg1.jpg', 'topbg.jpg', 'bottom.png'];
     for (var i = 0; i < arr.length; i++) {
         var oImg = new Image();
         oImg.src = "img/" + arr[i];
