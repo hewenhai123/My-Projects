@@ -1,0 +1,25 @@
+/*
+*清楚默认样式：
+*/
+
+body,div,ul,li,img,input,a,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding: 0;
+    font-family: "\5FAE\8F6F\96C5\9ED1", Helvetica, sans-serif;
+    font-size: 12px;
+}
+input{
+
+    border: none;
+  outline: medium;
+}
+
+a{color: #000000;text-decoration:none}
+a:hover{color: red;}
+ul li{
+    list-style: none;
+}
+
+.clearBoth{
+    clear: both;
+}
