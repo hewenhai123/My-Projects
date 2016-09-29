@@ -1,0 +1,87 @@
+
+/*reset style start*/
+body,div,p,img,h1,h2,h3,h4,h5,h6,ul,li,ol,dl,span,a,i,input,button{
+    margin:0;padding: 0;
+}
+ul li{
+    list-style-type:none;}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: #ff920b;
+}
+button,input {
+    outline: none;
+    border-style:none;
+    font-family:PingFangSC-Regular,Tahoma,Microsoft Yahei;
+}
+
+/*reset style end*/
+
+/*fontSet start*/
+body{
+    font:12px/1.5 PingFangSC-Regular,Tahoma,Microsoft Yahei;
+    /*font-weight: bold;*/
+    /*_font-size:62.5%;*/
+    /*font-size: 12px;*/
+    /*font-family:PingFangSC-Regular,Tahoma,"Microsoft Yahei " ;*/
+}
+body{
+    background: #ffffff;
+}
+
+/*fontset feBlend*/
+
+
+.bor{
+    border:1px solid red;
+}
+
+.icon {
+    display: inline-block;
+    margin:0 auto 2px;
+    width: 20px;
+    height: 20px;
+
+}
+
+.caption_title{
+    display: inline-block;
+    padding:4px;
+    font-size:14px;
+    font-weight:normal;
+}
+.caption_decs{}
+.caption_decs .decs{
+    padding: 4px;
+    font-size: 13px;
+    color: #666;
+}
+.f_l{
+    float: left;
+}
+.f_r{
+    float: right;
+}
+
+
+.list_item{
+    position: relative;
+    display: inline-block;
+    width: 220px;
+    height: 123px;
+    padding: 8px;
+    z-index:5;
+}
+.item_inner{
+    display: none;
+    position: absolute;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    background: #ffffff;
+    border:1px solid red;
+
+}

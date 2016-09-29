@@ -8,6 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
     <style type="text/css">
 
         #tab {
@@ -20,6 +21,8 @@
         }
 
         #tab-cont div ul li {
+            background-image: linear-gradient(130deg,rgba(255,255,255,0)5%,rgba(223,100,34,.5)9%,rgba(255,255,255,0));
+            padding-left: 40px;
             color: #000000;
         }
 
@@ -30,24 +33,26 @@
 
         #tab-cont div.show {
             display: block;
+
+
         }
 
 
     </style>
 </head>
 <body>
-<section class="page-header">
+<section class="page-header" id="page-header">
     <h1 class="project-name">My-Projects</h1>
 
     <h2 class="project-tagline">个人作品</h2>
 
     <h3 class="project-tagline">by He wen hai</h3>
     <h3 class="project-tagline">如果您使用移动端设备请在WIFI环境下浏览</h3>
-    <a href="https://github.com/hewenhai123/myProduction" class="btn " target="_blank" >View on GitHub</a>
+    <a href="https://github.com/hewenhai123/myProduction" class="btn " target="_blank">View on GitHub</a>
     <section class="project-tab">
         <ul id="tab">
-            <li class="btn">移动端作品</li>
-            <li class="btn">pc端作品</li>
+            <li class="btn">移动端项目</li>
+            <li class="btn">pc端项目</li>
             <li class="btn">个人简历</li>
             <li class="btn">Node.js</li>
         </ul>
@@ -57,15 +62,16 @@
 
 
 <section class="main-content">
-    <div id="tab-cont" class="project-tab-cont">
-        <div class="show">
+    <div id="tab-cont" class="project-tab-cont" style="max-height: 30%;">
+        <div class="show animated bounceInRight">
             <ul>
-                <li><a href="http://hewenhai123.github.io/My-Projects/html5resume/index.html" target="_blank">Html5简历</a></li>
+                <li><a href="http://hewenhai123.github.io/My-Projects/mobileResume/index.html"
+                       target="_blank">移动端个人简历</a></li>
             </ul>
         </div>
         <div>
             <ul>
-                <li><a href="http://hewenhai123.github.io/My-Projects/qq/index.html" target="_blank">PC端作品</a></li>
+                <li><a href="http://hewenhai123.github.io/My-Projects/v.qq/index.html" target="_blank">仿腾讯首页</a></li>
             </ul>
         </div>
         <div>
@@ -105,9 +111,58 @@
             for (var i = 0; i < btnList.length; i++) {
                 btnCont[i].className = "";
             }
-            btnCont[this.index].className = "show";
+            btnCont[this.index].className = "show animated bounceInRight";
         }
     }
+    ~(function(){
+        var headBg = document.getElementById("page-header");
+        var mathRGB1 = mathRandom(3);
+        var mathRGB2 = mathRandom(3);
+        var deg = mathRandom(1);
+        var deg = deg[0];
+        var r = g = b = 1;
+        var d=0.1;
+        var aryRGB1 = [r, g, b];
+        var aryRGB2 = [r, g, b];
+        function seting(mathRGB, aryRGB) {
+            mathRGB[0] += aryRGB[0];
+            mathRGB[1] += aryRGB[1];
+            mathRGB[2] += aryRGB[2];
+            for (var i = 0; i < mathRGB.length; i++) {
+                if (mathRGB[i] >= 255) {
+                    aryRGB[i] = -1;
+                }
+                if (mathRGB[i] <= 0) {
+                    aryRGB[i] = 1;
+                }
+            }
+            return mathRGB
+        }
+        window.setInterval(function () {
+            deg += d;
+            if (deg >= 360) {
+                d = -0.1;
+            }
+            if (deg <= 0) {
+                d = 0.1;
+            }
+            var rgb1 = seting(mathRGB1, aryRGB1);
+            var rgb2 = seting(mathRGB2, aryRGB2);
+            headBg.style.backgroundImage = "linear-gradient(" + deg + "deg,rgb(" + rgb1[0] + "," + 100 + "," + rgb1[2] + "),rgb(" + rgb2[0] + "," + 100 + "," + rgb2[2] + "))";
+        }, 10);
+
+        function mathRandom(len) {
+            ary = [];
+            var i = 0;
+            while (i < len) {
+                i++;
+                var a = Math.round(Math.random() * 255);
+                ary[ary.length] = a;
+            }
+            return ary
+        }
+    })();
+
 
 
 </script>

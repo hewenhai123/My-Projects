@@ -1,0 +1,386 @@
+/*头部样式开始*/
+.head_line {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 3px;
+    font-size: 0px;
+    line-height: 0px;
+    background: #44BFFA;
+    background: -webkit-linear-gradient(to right, #70Df00, #44BFFA);
+    background: linear-gradient(to right, #70Df00, #44BFFA);
+}
+
+.head_inner {
+    position: relative;
+    width: 1460px;
+    height: 79px;
+    margin: 0 auto;
+}
+
+/*logo*/
+.section_logo {
+    position: relative;
+    left: -30px;
+    width: 186px;
+    height: 100%;
+}
+
+.section_logo .logo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/logo.png") no-repeat;
+}
+
+/*搜索*/
+.section_search {
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    width: 580px;
+    height: 40px;
+    margin-left: -290px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, .7);
+}
+
+.section_inner {
+
+}
+
+.section_inner .search_keyword {
+    padding: 0 0 0 30px;
+    width: 445px;
+    line-height: 38px;
+    font-size: 18px;
+    background: none;
+    color: #666;
+}
+
+.section_inner .search_icon {
+    position: absolute;
+    top:10px;
+    left: 8px;
+}
+
+.section_inner .search_btn {
+    width: 105px;
+    line-height: 40px;
+    background: #ff920b;
+    color: #ffffff;
+    font-size: 18px;
+
+}
+
+.section_quick {
+    position: absolute;
+    right: 0px;
+    top: 16px;
+}
+
+.quick_item {
+    margin: 3px;
+    float: left;
+}
+
+.quick_history .time_icon {
+    display: block;
+    background: url("../images/sprite_common.png") 0 -37px no-repeat;
+}
+
+.quick_up .up_icon {
+    display: block;
+    background: url("../images/sprite_common.png") -20px -36px no-repeat;
+}
+
+.quick_pc .pc_icon {
+    display: block;
+    background: url("../images/sprite_common.png") -20px -104px no-repeat;
+}
+
+.quick_vip .vip_icon {
+    display: block;
+    background: url("../images/sprite_common.png") -140px -35px no-repeat;
+}
+
+.quick_login {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;;
+    overflow: hidden;
+
+}
+
+.quick_login .login_icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/*头部样式结束*/
+
+/*导航开始*/
+
+.bg_nav {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 13px;
+    background: rgba(255, 255, 255, .7);
+}
+
+.nav_area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 10px;
+}
+.nav_sub_wrap{
+    display: none;
+    margin: 0 10px;
+    padding: 0 10px;
+    position: absolute;
+    top: 30px;
+    white-space: nowrap;
+    max-width: 1460px;
+    background: rgba(255,255,255,0.8);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.nav_sub_wrap .nav_item{
+    line-height: 20px;
+}
+
+
+
+.nav_item {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 6px;
+    padding-bottom: 4px;
+}
+
+.nav_item .item_arrow{
+    display: none;
+    position: absolute;
+    left:50%;
+    margin-left: -5px;
+    bottom: -2px;;
+    width:0;
+    height: 0;
+    border:5px solid transparent;
+    border-bottom-color: rgba(255,255,255,.8);
+}
+.nav_item .item_title{
+    display: inline-block;
+    position: relative;
+
+}
+.nav_sub_area .nav_item{
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+.nav_more {
+    position: absolute;
+    top: 8px;
+    right: 100px;
+    height: 13px;
+    border-right: 1px solid #fff;
+    padding: 0 10px 0 0;
+}
+
+.nav_more .more_icon {
+    width: 13px;
+    height: 13px;
+    background: url("../images/sprite_common.png") -168px -20px no-repeat;
+}
+
+.nav_download {
+    position: absolute;
+    right: 10px;
+}
+
+.nav_download .download_icon {
+    position: absolute;
+    top: 4px;
+    left: -20px;
+    background: url("../images/sprite_common.png") -168px -32px no-repeat;
+
+}
+
+.nav_download .download_text {
+    line-height: 30px;
+}
+
+/*导航结束*/
+
+/*banner开始*/
+.banner_list {
+    position: absolute;
+    top: 131px;
+    right: 50%;
+    margin-right: -728px;
+    width: 240px;
+    background: #ffffff;
+
+}
+.banner_list ul li {
+    font-size: 14px;
+    line-height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.banner_list ul li a {
+    padding: 0 10px;
+}
+.banner_content_list {
+    display: inline-block;
+    position: absolute;
+    z-index: -2;
+    width: 100%;
+    height: 580px;
+    opacity: 0;
+    -webkit-transition: opacity 2s ease;
+    -moz-transition: opacity 2s ease;
+    -ms-transition: opacity 2s ease;
+    -o-transition: opacity 2s ease;
+    transition: opacity 2s ease;
+}
+.opacity1{
+    opacity: 1;
+}
+.banner_content_list img{
+    display:block;
+    margin:0 auto;
+}
+.section_bg {
+    position: absolute;
+    right:50%;
+    bottom:0;
+    margin-right:-748px;
+    padding: 10px 10px 0;
+    width: 1476px;
+    height: 108px;
+    background: rgba(255, 255, 255, .3);
+
+}
+.section_bg .bg_inner {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .6);
+}
+/*banner结束*/
+/*section content start */
+/*section----head*/
+.section_hd {
+    position: relative;
+    margin: 10px;
+}
+.section_hd_title {
+    font-weight: bold;
+
+}
+.section_hd_title .title {
+    padding: 4px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #2a2a2a;
+}
+.title_action {
+    position: absolute;
+    right: 4px;
+    top: 10px;
+}
+.btn_icon {
+    background: url("../images/sprite_common.png") -168px -66px no-repeat;
+    vertical-align: top;
+}
+.btn_inner {
+    font-weight: normal;
+}
+.content_caption {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+
+}
+.content_caption .caption_title {
+    font-size: 18px;
+    color: #fff;
+}
+.caption_decs a:hover {
+    color: #2a2a2a;
+}
+.section_bd_content {
+    position: relative;
+}
+.content_l {
+
+    float: left;
+}
+.content_r {
+    width: 960px;
+    margin-left: 480px;
+}
+.content_list {
+    margin-bottom: 10px;
+    font-size: 0;
+}
+.content_list .list {
+    width: 463px;
+    height: 360px;
+    padding: 6px;
+    /*line-height: 26px;*/
+
+}
+.list_item .content_caption {
+    bottom: 10px;
+
+}
+.list_m {
+    margin-bottom: 20px;
+}
+/*鼠标已入扩展模块开始*/
+.section_spread {
+    font-size: 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.section_spread li {
+    display: inline-block;
+    width: 284px;
+    height: 120px;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: width 0.2s ease;
+    -webkit-transition: 0.2s ease;
+}
+.section_spread li a {
+    display: inline-block;
+}
+.list_border {
+    position: absolute;
+    z-index: 4;
+    width: 220px;
+    height: 123px;
+    border: 4px solid #ff920b;
+    transition: left 0.5s ease;
+}
+/*鼠标已入扩展模块结束*/
+/*section content end*/
