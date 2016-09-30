@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* 
+Idac_base.css 
+wind_chen_nt@gmail.com 
+*/
+
+#Register_Quike{ min-height:660px; _height:660px; width:950px; margin:10px auto; background:#1f1f1f; border:#2f2f2f solid 1px;}
+#Register_Quike .bottom{ clear:both; height:20px; width:900px; margin:0 auto;}
+.register_right{  width:480px; margin:50px 0 0 240px; }
+.yzm img{ margin:10px 10px 0 0; height:31px; width:70px; }
+.yzm input{ height:20px; width:100px; color:#939393; background:#121212; border:#373737 solid 1px; text-indent:1em; margin-left:10px;}
+.register_right p{ margin-top:20px; }
+.text{ height:22px;}
+.input_text{ height:20px; width:180px; color:#939393; background:#121212; border:#373737 solid 1px; text-indent:1em; margin-left:10px;}
+.submit_btn{ background:url(../img/button/Button_28_87.png); border:0; height:28px; width:87px; line-height:2.0; color:#FFF; margin-top:30px;}
+.submit_btn:hover{ font-weight:bold;}
+.submit_btn_1{ background:url(../img/button/Button_28_87.png); border:0; height:28px; width:87px; line-height:2.0; color:#FFF; margin-top:30px; display:block; text-align:center; margin-left:200px;}
+.submit_btn_1:hover{ font-weight:bold;}
+
+.register_center{ width:900px; margin:20px auto; line-height:2.0; text-align:center;}
+.input_userinfo{ height:20px; width:280px; color:#939393; background:#121212; border:#373737 solid 1px; text-indent:1em;}
+
+.Warning{ min-height:150px; _height:150px; width:800px; margin:10px auto; border:#fff solid 2px; color:#f00; padding:20px; line-height:2.0;}
+.Success{ min-height:150px; _height:150px; width:800px; margin:10px auto; border:#8f8f8f solid 2px; color:#0CF; padding:20px; line-height:2.0;}
+
+#Pop-up_box{ height:300px; width:468px; margin:10px auto; background:#1f1f1f; border:#2f2f2f solid 1px; line-height:2.0;}
+#Pop-up_box .info{ height:250px;  width:400px; margin:50px auto;}
+#Pop-up_box .submit_info{ background: url(../img/button/Button_red_28_197.png); border:0; height:28px; width:197px; line-height:2.0; color:#FFF; margin-top:30px;}
+#Pop-up_box .submit_info:hover{ font-weight:bold;}
+
+.submit_btn_cz{ background:url(../img/button/Button_28_87.png); border:0; height:28px; width:87px; line-height:2.0; color:#FFF; margin:30px auto; display:block; text-align:center; }
+.submit_btn_cz:hover{ font-weight:bold;}

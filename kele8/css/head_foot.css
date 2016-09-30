@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*头部样式*/
+body,html{
+	margin:0;
+	padding:0;
+	background:url(../img/bg/about_us_bg.png);
+	overflow:auto;
+	
+	}
+html{_overflow:hidden;}
+.Head_box{
+	width:100%;
+	height:104px;
+	background:url(../img/bg/Head_box_bg.png) repeat-x;
+	position:fixed;
+	_position:absolute;
+	top:0;
+	z-index:99;
+	
+_bottom:auto;
+_top:expression(eval(document.documentElement.scrollTop));
+	}
+.Head_top{
+	width:960px;
+	height:80px;
+	margin:0 auto;
+	padding-top:16px;
+	}
+.Head_top img{
+	float:left;
+	display:inline;
+	border:none;
+	}
+.head_top_link{
+	float:left;
+	display:inline;
+	list-style-type:none;
+	margin-top:30px;
+	margin-left:50px;
+	padding:0;
+	height:80px;
+	}
+.head_top_link li{
+	float:left;
+	display:block;
+	text-align:center;
+	width:auto;
+	height:20px;
+	margin:0 13px;
+	_margin:0 22px;
+	display:inline;
+	}
+.head_top_link li a{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	font-size:18px;
+	font-family:"黑体";
+	border-bottom:5px solid #bfbfbf;
+	}
+.head_top_link li a:hover{
+	display:block;
+	color:#ff8e00;
+	text-decoration:none;
+	font-size:18px;
+	font-family:"黑体";
+	border-bottom:5px solid #ff8e00;
+	}
+.four_words{ 
+    width:90px;
+	height:36px;
+	}
+.six_words{  
+    width:108px;
+	height:36px;
+	}
+.head_top_link li a:hover{color:#ff8e00;}
+
+#position_link{ color:#ff8e00; border-bottom:5px solid #ff8e00; width:90px;
+	height:36px;}
+
+
+
+
+.Head_bottom{
+	width:960px;
+	position:absolute;
+	left:50%;
+	top:104px;
+	margin-left:-480px;
+	height:36px;
+	float:left;
+	display:inline;
+	}
+.head_position{
+	float:left;
+	display:inline;
+	width:880px;
+	height:34px;
+	background:url(../img/bg/Head_bottom_bg.png) repeat-x;
+	font-size:12px;
+	line-height:30px;
+	}
+.head_position a{ color:#000; text-decoration:none;}
+.head_position a:hover{ color:red; text-decoration:underline;}
+/*头部样式结束*/
+
+/*foot样式开始*/
+
+.foot_box{
+	float:clear;
+	width:100%;
+	/*background:url(../img/bg/foot_bg.png) repeat-x;*/
+	height:108px;
+	padding-top:2px;
+	}
+.Foot_link{
+	width:960px;
+	margin:0 auto;
+	}
+.Foot_link ul{
+	list-style-type:none;
+	height:20px;
+	width:450px;
+	margin:10px auto;
+	*margin-top:15px;
+	}
+.Foot_link li{
+	float:left;
+	display:inline;
+	display:block;
+	margin:0 3px;
+	font-size:12px;
+	}
+.Foot_link li a{
+	color:#444;
+	}
+.Foot_link li a:link{
+	text-decoration:none;
+	}
+.Foot_link li a:hover{
+	color:#e2041b;
+	}
+.banquan{
+	text-align:center;
+	font-size:12px;
+	color:#333;
+	width:960px;
+	margin:0 auto;
+	line-height:1.8;
+	}

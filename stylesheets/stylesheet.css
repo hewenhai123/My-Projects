@@ -61,7 +61,7 @@ a {
 
 @media screen and (min-width: 64em) {
   .page-header {
-    padding: 5rem 6rem; } }
+    padding: 2rem 6rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .page-header {
@@ -85,7 +85,14 @@ a {
 
 @media screen and (max-width: 42em) {
   .project-name {
-    font-size: 1.75rem; } }
+    font-size: 1.75rem; } 
+	.remuse span{
+		 display:inline-block;
+		 width:100%;
+          
+        }
+	
+	}
 
 .project-tagline {
   margin-bottom: 2rem;
@@ -222,7 +229,7 @@ a {
 
 .site-footer {
   padding-top: 2rem;
-  margin-top: 2rem;
+  margin-top: 15rem;
   border-top: solid 1px #eff0f1; }
 
 .site-footer-owner {

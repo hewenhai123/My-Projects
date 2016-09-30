@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* 
+wind.chen 
+
+Kele8_V3
+wind_chen_nt@gmail.com 
+*/
+
+/*
+sunbf-2012-7-24
+图片样式修改*/
+#game_info a:hover img,
+.news_box_01 a:hover img,
+.top_img_01 a:hover img,
+#news_newgame a.left:hover img,
+#news_vedio .top a:hover img,
+.rollBox .Cont .pic a:hover img,
+#Pcgame_pic .center a:hover img,
+#Pcgame_data_left .game a:hover img,
+#Pcgame_raiders_pic a:hover img{border:1px solid #666}
+
+
+
+#pc_game_topic{ height:180px; width:948px; margin-top:10px; border:#c2d3dd 1px solid; font-size:12px;}
+#pc_game_topic .tab{ height:32px; width:948px; border-bottom:#c2d3dd 1px solid;}
+#pc_game_topic .tab li{ height:26px; width:65px; background:url(../img/bg/Pcgame_toptag.png); margin:5px 0 0 5px; border:#c2d3dd 1px solid; border-bottom: none; cursor:pointer; overflow:hidden; display:block;}
+#pc_game_topic .tab a:hover {text-decoration:none; color:#e2041b;}
+#pc_game_topic .tab .on_6{ background:none;  border:#c2d3dd 1px solid; border-bottom:none; font-weight:bold;}
+
+#pc_game_topic .center{ height:140px; width:948px; overflow:hidden; }
+#pc_game_topic .center li{ height:18px; width:450px; float:left; overflow:hidden; margin:8px 8px 0 8px;line-height:20px;}
+#pc_game_topic .center li img{ float:left;}
+#pc_game_topic .center li a{ display:block; margin:0 5px 0 5px;  float:left;}
+#pc_game_topic .center li span{ height:18px; width:10px; text-align:center;float:left;}
+#pc_game_topic .center li .red{ color: #e2041b;}
+#pc_game_topic .center .title{ height:18px; width:60px; padding-left:6px; text-align:left; color:#FFF; background:url(../img/icon/pcgame_tag.png);}
+
+#pc_game_topic .center .title_red{ height:18px; width:60px; padding-left:6px; text-align:left; color:#FFF; background:url(../img/icon/pcgame_tag_red.png);}
+#pc_game_topic .center .bottom{ height:20px; width:900px; float:left; overflow:hidden; margin:8px 8px 0 8px; padding-top:8px; border-top:#CCC 1px dashed; line-height:20px;}
+
+
+
+/*第一屏新闻*/
+#news{ height:662px; margin-top:10px;}
+
+#news_vedio{ height:157px; width:348px; margin-top:10px;  border:#ccc 1px solid;}
+#news_vedio .top{height:115px;width:338px; margin:10px 0 0 10px;}
+#news_vedio .top a{ height:115px; width:100px; margin:0 12px 8px 0; float:left; text-align:center; overflow:hidden;line-height:18px\0;}
+#news_vedio .top img{ height:70px; width:96px; border:#CCC 1px solid;padding:1px}
+#news_vedio .top p{ height:35px; width:100px; overflow:hidden; font-size:12px; line-height:18px;}
+
+#Pcbgame_slider img{height:210px; width:310px;}
+
+#Pcbgame_news{ height:212px; width:308px;border:#ccc 1px solid; margin-top:10px;}
+#Pcbgame_news .top{ height:220px; width:330px; margin:10px 0 0 9px;}
+#Pcbgame_news .top img{ height:218px; width:328px; border:#ccc 1px solid;}
+
+
+#Pcbgame_hot{ height:215px; width:308px; margin-top:10px; border:#ccc 1px solid;}
+#Pcbgame_hot .list{ margin:10px 0 0 10px;}
+#Pcbgame_hot .list a{ height:95px; width:100px; margin:0 12px 8px 0; float:left; text-align:center; overflow:hidden;line-height:18px\0;}
+#Pcbgame_hot img{ height:72px; width:100px; border:#bbb 1px solid;}
+
+
+#news_newgame{ height:278px; width:268px; border:#ccc 1px solid;margin-top:10px; font-size:12px; line-height:22px;}
+#news_newgame .left{ height:71px; width:92px; margin:10px 10px 0 10px; float:left; line-height:26px;  text-align:center;}
+#news_newgame .left img{ height:67px; width:88px;border:#ccc 1px solid; padding:1px;clear:both;}
+#news_newgame .info{ height:71px; width:150px; margin-top:10px; float:left; overflow:hidden; }
+#news_newgame .title {height:30px; width:130px; overflow:hidden; font-weight:bold; font-size:14px; line-height:26px;}
+
+
+#game_info{ height:368px;  width:268px; border:#ccc 1px solid;  }
+
+#game_info img{height:133px; width:98px; border:#CCC 1px solid;padding:1px; margin:10px 0 0 10px; float:left;}
+#game_info .left{height:130px; width:140px;  padding-left:10px; font-size:12px; line-height:22px;float:left; margin-top:5px;}
+#game_info .left p{height:23px; width:130px; overflow:hidden;}
+#game_info .left a{ font-weight:bold;}
+#game_info .bottom{ width:248px;border-top:#bbb 1px dashed; margin:10px 5px 0 5px; padding-top:8px;}
+#game_info .bottom li{ height:24px; +height:22px; font-size:12px;line-height:18px;}
+#game_info .bottom .nu{height:17px; width:17px; display:block; float:left; background: url(../img/icon/icon_newsleft_2.png) no-repeat center 4px; text-align:center; margin-right:8px;  }
+#game_info .bottom .info{ height:18px; width:140px; display:block; float:left; overflow:hidden;}
+#game_info .bottom .start{height:18px; width:54px; background: url(../img/button/btn_Flashgame_list_start.png); text-align:center;  float:right;}
+#game_info .bottom .start:hover{background: url(../img/button/btn_Flashgame_list_start_h.png);text-decoration:none;}
+
+
+
+
+
+#news_pic{ height:200px; width:948px; margin-top:10px; border:#ccc 1px solid;}
+
+
+
+#Pcgame_pic{ height:330px; margin-top:10px;}
+#Pcgame_pic .slider{ height:280px; width:270px; background:#CCC; margin-top:10px;}
+
+#Pcgame_pic .center{height:280px; width:430px; margin-top:10px;}
+#Pcgame_pic .center a{ height:124px; width:128px; margin:0 7px 16px 7px; float:left; text-align:center; overflow:hidden;line-height:21px\0;}
+#Pcgame_pic .center img{ height:94px; width:124px;border:#CCC 1px solid;padding:1px;}
+
+#Pcgame_pic .top10{height:280px; width:228px;border:#ccc 1px solid; margin-top:10px;}
+
+#Pcgame_pic .top10 ul{ height:240px; width:208px; margin:5px 0 0 10px; line-height:20px; font-size:12px;}
+#Pcgame_pic .top10 ul li{height:24px;*height:22px;}
+#Pcgame_pic .nu{height:17px; width:17px; display:block; float:left; background:url(../img/bg/top10_no.png); text-align:center; margin-right:8px;  line-height:18px;}
+#Pcgame_pic .info{ height:20px; width:130px; display:block; float:left; overflow:hidden;}
+#Pcgame_pic .down{height:20px; line-height:20px; width:44px; background:url(../img/button/down.png); text-align:center;  float:right;}
+
+
+
+#Pcgame_data{ height:450px; margin-top:10px;}
+
+#Pcgame_data form{ height:25px; width:500px; float:left;margin-left:250px;_margin-left:150px;font-size:12px;}
+#Pcgame_data form select{height:22px; border:1px solid #21afc7;}
+#Pcgame_data .text{height:22px; padding-left:10px; border:1px solid #21afc7; line-height:20px;}
+#Pcgame_data .search{margin-left:-2px;border:none;color:#fff;width:44px;height:24px;background: url(../img/button/pcgame_search.png) no-repeat;}
+#Pcgame_data .search:hover{color:#F06;	background: url(../img/button/pcgame_search_h.png) no-repeat;}
+
+
+#Pcgame_data_left{ height:400px; width:708px;border:#ccc 1px solid; margin-top:10px;}
+#Pcgame_data_left .tab{height:380px; width:100px;  font-size:14px; color:64b5b9; float:left; line-height:30px; }
+#Pcgame_data_left .tab li{height:29px; width:75px; padding-left:20px; text-align:left;background:url(../img/bg/title_30_tab.png); border-right:#ccc 1px solid; cursor:pointer; overflow:hidden; display:block;}
+#Pcgame_data_left .tab .on_5{width:76px; background:none; border-bottom:#ccc 1px solid; border-right:none; font-weight:bold;}
+#Pcgame_data_left .game{ height:390px; width:600px; float:left; overflow:hidden; }
+#Pcgame_data_left .game a{ height:158px; width:100px; font-size:12px; float:left; margin:5px 0 0 18px; line-height:20px; overflow:hidden; text-align:center;}
+#Pcgame_data_left .game img{ height:131px; width:96px;border:1px solid #CCC;padding:1px;}
+#Pcgame_data_left .game .title{ height:30px; width:565px; padding-left:35px; background:url(../img/bg/pcgame_data.png) 30px 5px no-repeat; clear:both; line-height:28px; font-weight:bold; color:#FFF;}
+
+
+
+#Pcgame_data .top10{ height:400px; width:228px;border:#ccc 1px solid; margin-top:10px;}
+#Pcgame_data .top10 ul{ height:355px; width:208px; margin:5px 0 0 10px; }
+#Pcgame_data .top10 ul li{ height:24px; *height:22px; line-height:20px; font-size:12px;}
+#Pcgame_data .nu{height:17px; width:17px; display:block; float:left; background:url(../img/bg/top10_no.png); text-align:center; margin-right:8px;  line-height:18px;}
+#Pcgame_data .info{ height:18px; width:130px; display:block; float:left; overflow:hidden;}
+#Pcgame_data .down{height:20px;  line-height:20px; width:44px; background:url(../img/button/down.png); text-align:center;  float:right;}
+
+
+#Pcgame_raiders{ height:400px; margin-top:10px; clear:both;}
+#Pcgame_raiders_pic{height:350px; width:348px;border:#ccc 1px solid; margin-top:10px;}
+#Pcgame_raiders_pic li{ height:143px;_height:142px; width:160px; margin:14px 0 0 10px; _margin:14px 0 0 5px; float:left; text-align:center; overflow:hidden; font-size:12px; line-height:18px;}
+#Pcgame_raiders_pic img{ height:118px; width:156px;border:#CCC 1px solid;padding:1PX}
+
+#Pcgame_raiders_news{height:340px; width:350px;margin-top:10px;}
+
+#Pcgame_raiders .top10{ height:340px; width:228px;border:#ccc 1px solid; margin-top:10px;}
+
+
+
+
+
+#Pcgame_bbs{ height:280px; margin-top:10px;}
+#Pcgame_bbs .box1{height:230px; width:348px;border:#ccc 1px solid; margin-top:10px;}
+#Pcgame_bbs .qustion{height:230px; overflow:hidden; width:228px;border:#ccc 1px solid; margin-top:10px;}
+
+
+
+#Pcgame_bbs .info img {height:62px; width:62px; float:left; margin-right:10px; display:block;}
+#Pcgame_bbs .info { height:62px; width:147px; float:left; margin:20px 0 0 15px;font-size:12px; display:block; line-height:18px; overflow:hidden;}
+#Pcgame_bbs .info p{ height:21px; width:65px; float:left; overflow:hidden;}
+#Pcgame_bbs .info .go{ height:18px; width:53px; background:url(../img/button/pc_game_start.png); text-align:center; color:#FFF; display:block;}
+#Pcgame_bbs .info .go:hover{ background:url(../img/button/pc_game_start_h.png); text-decoration:none; color:#e2041b;}
+.line_x348{ line-height:1px; height:1px; width:348px; float:left; border-top:1px #CCC dashed;}
+.line_y115{ height:95px; width:0px; float:left; border-right:1px #CCC dashed;}
+
+
+
+
+#Pcgame_info{ height:325px; margin-top:10px;}
+#Pcgame_info .box2{height:275px; width:348px;border:#ccc 1px solid; margin-top:10px;}
+#Pcgame_info .music{height:275px; width:228px;border:#ccc 1px solid; margin-top:10px;}
+#Pcgame_info .more{ margin:0 10px 0 10px; font-weight:bold;}
+#Pcgame_info .box3{height:275px; width:308px;border:#ccc 1px solid; margin-top:10px;}
+
+
+#news_today{ height:208px;width:348px; border:#ccc 1px solid;}
+#news_today_top{ height:28px; width:324px; margin:0 12px 0 12px; padding-top:7px; line-height:18px; border-bottom:#ccc 1px dashed;}
+#news_today_center{ height:110px; width:324px;margin:0 12px 0 12px;  }
+#news_today_bottom{ height:180px; width:324px;margin:0 12px 0 12px; }
+
+#news_game{ height:188px;width:348px; margin-top:10px; border:#ccc 1px solid; }
+
+#Pc_bbs{ height:270px; width:348px; margin-top:10px; border:#ccc 1px solid;}
+
+
+
+
+/*选项卡*/
+#news_today .tab,  #news_game .tab{height:29px; width:348px; background: url(../img/bg/title_30_tab.png);  font-size:14px; line-height:30px;}
+#news_weibo .tab {height:29px; width:268px; background: url(../img/bg/title_30_tab.png);  font-size:14px; line-height:30px; }
+#Webgame_card .tab{height:29px; width:228px; background: url(../img/bg/title_30_tab.png);  font-size:14px; line-height:30px; }
+
+.tab a{text-decoration:none;}
+.tab a:visited{text-decoration:none; }
+.tab a:hover {text-decoration:none; }
+.tab li{height:29px; width:80px; float:left; text-align:center; cursor:pointer;  display:block;  background:url(../img/line/line_tab_on.png)  bottom right no-repeat ;}
+#Webgame_card .tab li{height:29px; width:75px; float:left; text-align:center; cursor:pointer;  display:block;}
+
+.on, .on_2, .on_3, .on_4{background:#fff; display:block; background: url(../img/line/line_tab_on.png) bottom right no-repeat #fdfdfd; font-weight:bold;}
+
+
+
+/* 排行榜切换 */
+.ranking_layout{ width:140px; clear:both; font-size:12px; padding:0 4px 0 4px; }
+.ranking_cont{ width:140px; clear:both; position:relative; margin-top:-1px; padding:0 4px 0 4px;}
+.ranking_cont p {display: none;}
+.ranking_cont h3{ height:26px; line-height:18px; width:136px; overflow:hidden; font-size:12px; margin-top:5px; position:relative; display:block; cursor:pointer; }
+
+/* 新闻列表 */
+.news_list_w350{ width:324px; line-height:26px; margin-top:10px;}
+.news_list_w350 li{height:26px;  width:310px; background:url(../img/icon/icon_newsleft_2.png) left 9px no-repeat; padding-left:12px; overflow:hidden;}
+.news_list_w310{ width:284px; line-height:26px; }
+.news_list_w310 li{ height:26px;  width:270px; background:url(../img/icon/icon_newsleft_2.png) left 9px no-repeat; padding-left:12px; overflow:hidden;}
+.news_list_w230{ width:204px; line-height:26px;}
+.news_list_w230 li{height:26px;  width:200px; background:url(../img/icon/icon_newsleft_2.png) left 9px no-repeat; padding-left:12px; overflow:hidden;}
+
+
+
+.news_list_w270{ width:244px; line-height:26px; padding-left:12px; }
+.news_list_w270 li{ height:26px;  width:244px; overflow:hidden;}
+.news_list_vedio{ width:323px; line-height:26px; }
+.news_list_vedio li{ height:26px; width:300px;  background: url(../img/icon/icon_newsleft_v.png) left 6px no-repeat; padding-left:23px; overflow:hidden;}
+.news_list_star{ width:324px; line-height:26px; margin:5px 0 0 10px;}
+.news_list_star li{height:26px;  width:310px; background: url(../img/icon/icon_newsleft_4.png) left no-repeat; padding-left:16px; overflow:hidden;}
+
+.news_list_star_230{ width:210px; line-height:26px; margin:5px 0 0 10px;}
+.news_list_star_230 li{height:25px; +line-height:25px;_+line-height:26px; width:194px; background: url(../img/icon/icon_newsleft_4.png) left 6px no-repeat; padding-left:16px; overflow:hidden;}
+
+.news_list_qustion{ width:208px; line-height:26px; margin:5px 0 0 10px;}
+.news_list_qustion li{height:28px;   width:200px; background: url(../img/icon/icon_newsleft_q.png) left 8px no-repeat; padding-left:13px; overflow:hidden;}
+
+.news_list_b{ width:324px; line-height:26px; margin:5px 0 0 10px;}
+.news_list_b li{height:26px;  width:314px; background:url(../img/icon/icon_newsleft_2.png) left 9px no-repeat; padding-left:12px; overflow:hidden;}
+
+
+
+
+.news_title_01{ font-size:16px; color:#e2041b; text-align:center; font-weight:bold; height:26px; width:322px; overflow:hidden;}
+.news_title_01 a{color:#e2041b;}
+.news_title_01 a:link{text-decoration:none; color:#e2041b;}
+.news_title_01 a:visited{text-decoration:none; color:#e2041b;}
+.news_title_01 a:hover{text-decoration:underline; color:#e2041b;}
+.news_title_01 a:active{text-decoration:none; color:#e2041b;}
+
+.news_box_01{height:81px; width:284px; margin:8px 12px 0 12px; clear:both; overflow:hidden;}
+.news_box_01 img{ height:73px; width:98px; border:#ccc 1px solid;padding:1px; float:left;}
+.news_box_01 .title{height:18px; width:170px; color:#e2041b;float:left; padding-left:10px;line-height:18px;overflow:hidden; font-weight:bold;}
+.news_box_01 .title a{color:#e2041b;}
+.news_box_01 .info{ height:55px; width:170px; font-size:12px; float:left; padding:6px 0 0 12px; line-height:18px;overflow:hidden;}
+.news_box_01 .bottom{width:324px; float:left;}
+.news_box_01 .list{height:20px; width:200px; padding-left:10px;line-height:21px; float:left; overflow:hidden;}
+
+.news_box_02{ height:66px;width:324px; margin:10px 12px 0 12px; clear:both;}
+.news_box_02 img{ height:66px; width:88px; border:#ccc 1px solid; float:left;}
+.news_box_02 .title{height:18px; width:220px; color:#e2041b;float:left; padding-left:10px;line-height:18px;overflow:hidden;}
+.news_box_02 .title a{color:#e2041b;}
+.news_box_02 .info{ height:48px; width:220px; font-size:12px; float:left; padding-left:10px; text-indent:2em; line-height:26px;overflow:hidden;}
+
+.top_img_01{height:145px; width:348px; margin-top:10px; clear:both;}
+.top_img_01 a{height:145px; width:162px; margin-left:8px; overflow:hidden; text-align:center; float:left; line-height:18px\0; font-size: 12px; line-height:20px;}
+.top_img_01 img{height:118px; width:158px; border:#CCC 1px solid;padding:1px}
+
+
+
+/* 图片切换 */
+.rollBox{height:140px; width:948px; margin-top:10px;}
+.rollBox .LeftBotton{height:82px;width:20px;background: url(../img/icon/Arrow_left.png);float:left;display:inline;cursor:pointer; margin:30px 0 0 5px;}
+.rollBox .RightBotton{height:82px;width:20px;background: url(../img/icon/Arrow_right.png);float:left;display:inline;cursor:pointer; margin-top:30px;}
+.rollBox .Cont{height:140px; width:900px;margin-top:2px;overflow:hidden;float:left;}
+.rollBox .ScrCont,.rollBox .ScrCont2{width:10000000px;}
+.rollBox .Cont .pic{ height:140px; width:209px; margin:8px;float:left; overflow:hidden;text-align:center;}
+.rollBox .Cont .pic img{height:103px;display:block; width:205px;border:1px solid #CCC;padding:1px;}
+
+.rollBox #List1,.rollBox #List2,.rollBox #List3,.rollBox #List4{float:left;}
+
+
+
+
+
+
+
+
+
+

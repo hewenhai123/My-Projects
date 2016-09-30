@@ -1,0 +1,143 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******sunbf 2012-7-19
+       sunbf@52ranr.com*****/
+	   
+/*
+reset*/
+body{background:#CCC;color:#333;font:normal 14px/1.5 "宋体","微软雅黑", Arial, Helvetica, sans-serif;text-align:left;}
+a:link{text-decoration:none; color:#333;}
+a:visited{text-decoration:none; color:#333;}
+a:hover{text-decoration:underline; color:#e2041b;}
+a:active{text-decoration:none; color:#e2041b;}
+/*
+wrapper*/
+.wrapper{marign:0 auto;}
+.header{overflow:hidden;margin:0 auto;width:950px;}
+.header .ban{background:url(../img/topic_jiangjun/ban.jpg) no-repeat center top;height:260px;width:950px;}
+.header .nav_l,
+.header .nav_r,
+.ztdu_l,
+.ztdu_r,
+.box_l,
+.box_r{background:url(../img/topic_jiangjun/sprites.png) no-repeat 0 0;height:44px;width:20px;/*box-shadow:0 3px 5px rgba(0,0,0,0.4);-moz-box-shadow:0 3px 5px rgba(0,0,0,0.4);-webkit-box-shadow:0 3px 5px rgba(0,0,0,0.4);*/}
+.header .nav_c{background:url(../img/topic_jiangjun/nav_c.jpg) repeat-x 0 0;height:44px;overflow:hidden;width:910px;/*box-shadow:0 3px 5px rgba(0,0,0,0.4);-moz-box-shadow:0 3px 5px rgba(0,0,0,0.4);-webkit-box-shadow:0 3px 5px rgba(0,0,0,0.4);*/}
+.header .nav_r{background-position:-20px 0;}
+.header .nav_c li{background:url(../img/topic_jiangjun/nav_fgx.jpg) no-repeat 0 12px;display:inline;float:left;line-height:40px;padding:0 5px 0 7px;margin-left:-2px;}
+.header .nav_c li a{color:#F9F9F9;font-weight:bold;font-size:14px;padding:0 5px;}
+.header .nav_c li a:hover{text-decoration:underline;}
+/*
+content*/
+.content{margin:10px auto 0;width:950px;}
+.ztdu{overflow:hidden;margin:0 auto 10px;width:950px;}
+.ztdu_l{background-position:0 -45px;height:102px;width:50px;}
+.ztdu_c{border-top:1px solid #515178;border-bottom:1px solid #515178;background:#FAF7F4;height:100px;width:890px}
+.ztdu_c p{height:90px;line-height:28px;overflow:hidden;margin:10px 0 0 10px;text-indent:2em;width:880px;}
+.ztdu_r{background-position:-105px -45px;height:102px;width:10px}
+/*
+mainbox*/
+.mainbox{margin:0 auto 10px;width:950px;}
+.box_l{background-position:0 -148px;;height:34px;width:32px;}
+.box_c{background:url(../img/topic_jiangjun/game_c.jpg) repeat-x 0 0;height:34px;width:908px;}
+.box_r{background-position:-32px -148px;height:34px;width:10px;}
+.box_c h3{color:#FFF;line-height:34px;float:left;}
+.mainbox_c,
+.box_wq,
+.box_pic,
+.link_s{border:1px solid #580505;border-top:0 none;background:#FAF7F4;overflow:hidden;margin:0 auto;width:948px}
+.s_mainbox{border:1px solid #BEBDBC;background:url(../img/topic_jiangjun/gamebox_bg.jpg) repeat 0 0;height:342px;width:598px;}
+.mainbox_tit{border-bottom:3px solid #999;height:35px;margin:0 auto;width:578px;}    
+.mainbox_tit h4{color:#683131;font-size:18px;font-weight:bold;float:left;line-height:35px;}
+.mainbox_tit a{color:#333;font-weight:bold;float:right;line-height:35px;}
+.mainbox_img{border-bottom:1px dashed #BBB;margin:12px auto;height:142px;width:578px;}
+.s_zs{background:url(../img/topic_jiangjun/xxxxx.png) no-repeat 0 10px;height:135px;width:166px;}
+.s_zs p{color:#fcf2ea;font-weight:bold;font-style:italic;font-size:20px;margin:18px 0 0 14px;}
+.s_zs_min{background:url(../img/topic_jiangjun/xxxx.png) no-repeat 0 10px;height:135px;width:166px;}
+.s_zs_min p{color:#fcf2ea;font-weight:bold;font-style:italic;font-size:20px;margin:18px 0 0 18px;}
+.s_summary{width:400px;}
+.s_summary h5{color:#333;font-weight:bold;}
+.s_summary p{color:#666;font-size:12px;line-height:23px;}
+.s_summary a{color:#e2041b}
+.list_img{margin:0 auto;width:570px}
+.list_img li{display:inline;float:left;margin:0 7px;hieght:127px;text-align:center;width:176px;}
+.list_img li span a{display:block;line-height:21px;height:21px;margin-top:2px;overflow:hidden;width:174px}
+.list_img li img{height:100px;width:170px;}
+img{border:1px solid #999;padding:2px;vertical-align:middle}
+a:hover img{border:1px solid #333 !important;}
+/*
+s_sidebox*/
+.s_sidebox{border:1px solid #BEBDBC;background:url(../img/topic_jiangjun/gamebox_bg.jpg) repeat 0 0;height:342px;width:316px;}
+.s_sidebox p{margin:10px auto;width:289px;}
+.s_sidebox p img{height:210px width:284px}
+.sidebox_txt{margin:15px auto 0;width:289px;}
+.sidebox_txt a{color:#e2041b;}
+table{width:288px;}
+td{font-size:12px;padding:5px 0 5px 8px;margin:0;}
+table,td,tr{border-collapse:collapse; vertical-align:middle;}
+/*
+jingdian*/
+.box_c a{color:#fff;font-size:12px;line-height:34px;float:right;}
+.mainbox_list{border:1px solid #BEBDBC;background:url(../img/topic_jiangjun/gamebox_bg.jpg) repeat 0 0;display:inline;float:left;margin-top:10px;height:219px;width:298px;}
+.mainbox_list h4{color:#683131;border-bottom:2px solid #999;font-weight:500;height:30px;line-height:30px;margin:0 auto 10px;width:278px;}
+.mainbox_list p{float:left;width:111px;}
+.mainbox_list p img{margin:5px 0 0 10px;display:block;height:142px;width:106px;}
+.mainbox_list dl{float:right;display:inline;margin-right:10px;width:152px;}
+.mainbox_list dt{color:#444;font-weight:bold;}
+.mainbox_list dd{font-size:12px;height:120px;line-height:20px;overflow:hidden;}
+.mainbox_list p.info{display:inline;float:right;margin:5px 0 0 0;width:90px;}
+.mainbox_list p.info a{color:#B02323;font-weight:bold;}
+.ml14{margin-left:14px;}
+/*
+mainbox_wq*/
+.mainbox_wq{width:242px}
+.mainbox_wq .box_c{width:200px;}
+.box_wq{width:240px;}
+.box_wq li{display:inline;float:left;height:96px;text-align:center;margin:15px 12px 0;width:216px;}
+.box_wq li span a{display:block;line-height:26px;height:26px;margin-top:2px;overflow:hidden;width:213px}
+.mainbox_wq img{border:0 none !important}
+ .mainbox_wq a:hover img{border:0 none !important;}
+/*
+sidebox_pic*/
+.sidebox_pic{width:698px;}
+.sidebox_pic .box_c{width:656px;}
+.box_pic{padding-bottom:5px;*padding-bottom:10px;width:696px}
+.box_pic ul{margin:5px auto 0;width:684px;}
+.box_pic li{display:inline;float:left;height:138px;text-align:center;margin:5px 5px;width:161px;}
+.box_pic li img{border:1px solid #999;padding:2px;vertical-align:middle;}
+.box_pic li span a{display:block;line-height:23px;height:23px;overflow:hidden;font-size:12px;width:159px;}
+/*
+link*/
+.link_s{padding:10px 0;}
+.link_s a{margin:0 10px;}
+/*
+footer*/
+.Foot_link{
+	width:960px;
+	margin:0 auto 10px;
+	}
+.Foot_link ul{
+	margin:0 auto;width:362px;
+	}
+.Foot_link li{
+	float:left;
+	display:inline;
+	display:block;
+	margin:0 3px;
+	font-size:12px;
+	}
+.Foot_link li a{
+	color:#444;
+	}
+.Foot_link li a:link{
+	text-decoration:none;
+	}
+.Foot_link li a:hover{
+	color:#e2041b;}
+
+.footer{overflow:hidden;}
+.kele_logo{background:url(../img/topic_jiangjun/logo.png) no-repeat 0 0;height:72px;width:168px;}
+.kele_logo a{display:block;height:72px;width:168px;text-indent:-999em;}
+.copyright{width:772px;}
+.copyright p{color:#666;font-size:12px;margin:5px 0;}
+

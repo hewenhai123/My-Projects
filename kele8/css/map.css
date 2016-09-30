@@ -1,0 +1,43 @@
+@charset "utf-8";
+/**
+ * @filename:          Content-page.css
+ * @website:           http://www.kele8.com
+ * @version:           Kele8_V3
+ * @updated:           2012-06-01T16:59Z
+ * @author:            wind.chen 
+ * @explain:           wind_chen_nt@gmail.com  
+ */
+
+
+
+#Top{  width:1100px; clear:both; margin-left:50px;}
+#Top a{ display:block; margin-left:20px; float:left;}
+
+
+
+/*--文章列表--*/
+#list{ padding-bottom:20px; border:#ccc 1px solid; margin-top:10px;}
+#list_map{height:22px; width:610px; padding-left:18px; background: url(../img/bg/title_24.png); border-bottom:#ccc 1px solid;  font-size:14px; line-height:22px;}
+#list_map a{ margin:0 5px 0 5px;}
+.list{ /*height:3020px;*/  width:900px;  margin:10px 20px 0 20px; border-bottom:#666 dashed 1px; line-height:2.0;}
+.list li{ height:30px;  width:1000px;   overflow:hidden;}
+.list a{ height:30px; width:900px; float:right; overflow:hidden;}
+.list_time{height:30px;  width:80px; float:left; color:#999;}
+
+
+/*--分页--*/
+#page_box{ width:880px; text-align:center;  position:relative; margin-left:20px; }
+#page_box span{ float:left;}
+.page{ margin-top:10px; text-align:center; display:inline-block; line-height:1.6; }
+.page{*display:inline; }
+.page_now{ background:#CCC; color:#333; float:left; height:22px; width:22px; margin:10px 0 0 10px; }
+.page a{ border:#ccc 1px solid; float:left; height:22px; width:22px; margin:10px 0 0 10px; }
+.page a:hover{ background:#ccc ;color:#000;text-decoration: none; }
+
+
+
+
+
+
+
+

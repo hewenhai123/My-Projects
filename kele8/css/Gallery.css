@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* 
+wind.chen 
+
+Kele8_V3
+wind_chen_nt@gmail.com 
+*/
+
+
+/*--图片最终页--*/
+#pic{ min-height:900px; width:950px; background:#171717; color:#eee;}
+#pic_map{ height:50px; padding:10px 0 0 50px;}
+#pic_map a{ margin:0 10px 0 10px; color:fff;}
+#pic_title{ height:30px; width:945px; font-size:24px; text-align:center; overflow:hidden;}
+#pic_img{ width:760px; min-height:500px; margin:50px 0 0 100px; text-align:center; background:#171717;}
+#pic_img .img{max-width:760px; min-height:500px; vertical-align: middle; }
+#pic_bottom{ height:140px; width:908px; margin:20px 0 20px 10px; background:#000; border:#ccc 1px solid; padding:10px;}
+#pic_bottom img{ height:90px; width:120px; border:#ccc 1px solid; margin-left:24px; float:left;  }
+
+
+
+/*--评论--*/
+#Comment_Posted {background:#f6f6f6; height:230px; width:628px; border:#ccc 1px solid; float:left; margin:10px 0 5px 0; }
+#Comment_Posted .title{height:25px; width:613px; padding-left:15px; float:left; line-height:2.0; font-weight:bold; font-size:14px; background:none;}
+#Comment_Posted textarea{resize: none; height:110px; width:600px; background:#FFF; border:#ccc 1px solid; margin:10px 0 0 14px;}
+
+#Comment_Posted .bottom{height:28px; width:600px; margin:12px 0 0 15px; float:left;}
+#Comment_Posted .bottom span{ height:20px; line-height:2.4;  margin_right:5px; float:left; padding-right:5px;}
+
+#Comment_Posted .sign_text{ height:24px; width:120px; padding:2px 0 0 4px; margin:3px 15px 0 2px; float:left;}
+#Comment_Posted .sign_btn{ background: url(../img/bg/sing.png); border:none; height:20px; width:38px; margin:4px 10px 0 10px; color:#fff; text_align:center; float:left;}
+#Comment_Posted .Submit{background: url(../img/bg/Submit.png); height:28px; width:90px; margin:0 0 0 8px ; border:none; text-align:center; color:#fff;; font-weight:bold;  float:right;}
+
+#errorlist li{float: right; color:#f00;}
+
+
+#Comment{ min-height:260px; _height:260px; width:628px; border:#ccc 1px solid; float:left; margin-top:10px; padding-bottom:10px;}
+#Comment .title{background: url(../images/title/Comment-title.png);height:25px; width:400px; padding:6px 0 0 15px; float:left; font-weight:bold; }
+#Comment .look{background: url(../images/title/Comment-title.png);height:23px; width:200px; padding:8px 0 0 0; float:left;}
+#Comment ol{ width:628px;margin-top:30px; _margin-top:0;}
+#Comment li{ border-bottom:#ccc 1px dashed; min-height:52px;_height:52px; display:block;}
+#Comment li a{display:block; padding:10px; line-height:1.8; text-decoration: none; text-indent:2em;}
+#Comment li:hover {background:#eee;text-decoration: none; }
+#Comment li .t{ padding:10px;}
+#Comment li .name{ float:left;}
+#Comment li .time{ float:right;}
+
+
+<!--右边栏-->
+
+#game_recommend{ height:410px; width:308px;margin-top:10px; border:#ccc 1px solid;}
+#game_recommend .top li{ height:240px; width:140px; margin:10px 0 0 8px; float:left; text-align:center; }
+#game_recommend .top li img{ height:210px; width:140px; border:#ccc 1px solid;overflow:hidden; }
+#game_recommend .bottom { width:288px; line-height:26px; margin-top:7px; padding:0 10px 0 10px;}
+#game_recommend .bottom li{ height:26px; width:288px; overflow:hidden; }
+
+#game_news{ height:326px;  width:308px;margin-top:10px; border:#ccc 1px solid;}
+#game_news ul{width:308px; line-height:26px; margin-top:7px; padding:0 10px 0 10px;}
+#game_news ul li{ height:26px; width:288px; overflow:hidden; }
+
+#game_pic{ height:400px; width:308px;margin-top:10px; border:#ccc 1px solid;}
+#game_pic li{ height:170px; width:140px; margin:10px 0 0 8px; float:left; text-align:center; }
+#game_pic li img{ height:140px; width:140px; border:#ccc 1px solid;overflow:hidden; }
+
+.database_banner_r{ height:140px; width:310px; margin-top:10px;}
+.database_banner_r img{ height:140px; width:310px; border:#ccc 1px solid;}
+

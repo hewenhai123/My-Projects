@@ -1,0 +1,9 @@
+
+
+.demo{ width:270px; height:280px; position:relative; overflow:hidden; padding:0px;}
+.num{position:absolute;right:10px;top:255px;z-index:10;}
+.num a{width:16px;height:16px; color:#fff; background:#F90; line-height:16px; display:inline-block;text-align:center;margin-right:1px;cursor:pointer;}
+.num a.cur{background:#ff6700;color:#fff; border:1px solid #FC0; text-decoration:none; }
+.demo ul{position:relative;z-index:5; width:304px; height:280px; overflow:hidden; }
+.demo ul li{position:absolute; width:304px; height:278px; background:red; }
+.demo ul li img{ width:304px; height:280px; }

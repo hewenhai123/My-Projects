@@ -1,0 +1,71 @@
+@charset "utf-8";
+/**
+ * @filename:          add-1125.css
+ * @website:           http://tu.duowan.com
+ * @version:
+ * @updated:           2011-11-25T16:59Z
+ * @author:            依米
+ * @explain:           为了不与线上版本CSS冲突，这是本地另起的只写1125修改和增加页面所需的CSS
+ */
+/*PK首页*/
+#content .i-list .pic-list .tags .btn-view{width:143px;height:32px;text-align:center;line-height:32px;background:url(pk_btn_view.png) no-repeat;display:inline-block;padding:0;margin-top:5px;}
+#content .i-list .pic-list .tags .btn-view:hover{background:url(pk_btn_view.png) no-repeat 0 -32px;background-color:transparent;}
+#content .i-list .pic-list li span.pk-text{background-color:transparent;background-color:rgba(0, 0, 0, 0.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);zoom:1;padding:5px 10px;position:absolute;top:11px;left:11px;width:175px;color:#fff;}
+#content .i-list .pic-list li span.pk-text strong{font:700 36px/1 Arial;}
+#content .i-list .pic-list li span.pk-text p{color:#eee;}
+
+/*图片PK仅排行榜2*/
+#show .tips a.pk-viewrank{color:#fc0;background:url(pk_icon_viewrank.png) no-repeat 0 14px;}
+#main .pk-box-hd{height:70px;background:url(pk_box_hd.png) no-repeat;text-align:center;}
+#main .pk-box-hd a{height:43px;display:inline-block;margin:15px 17px 0 18px;background:url(pk_btns.png) no-repeat;font:700 20px/43px \5fae\8f6f\96c5\9ed1;color:#aaa;padding-left:45px;}
+#main .pk-box-hd a:hover{text-decoration:none;color:#31a0f7;}
+#main .pk-box-hd a.view-com{width:106px;background-position:0 -94px;}
+#main .pk-box-hd a.view-com:hover{background-position:0 -137px;}
+#main .pk-box-hd a.view-rank{width:127px;background-position:0 -180px;}
+#main .pk-box-hd a.view-rank:hover{background-position:0 -223px;}
+#main .pk-box-hd a.view-com-hover{width:106px;height:43px;display:inline-block;margin:15px 17px 0 18px;background:url(pk_btns.png) no-repeat 0 -137px;font:700 20px/43px \5fae\8f6f\96c5\9ed1;color:#31a0f7;padding-left:45px;}
+#main .pk-box-hd a.view-rank-hover{width:127px;height:43px;display:inline-block;margin:15px 17px 0 18px;background:url(pk_btns.png) no-repeat 0 -223px;font:700 20px/43px \5fae\8f6f\96c5\9ed1;color:#31a0f7;padding-left:45px;}
+
+/*PK排行*/
+.t-pic-show{position:relative;}
+.t-pic-show ul{padding:5px 3px 0px 1px;background:#fff;margin:0 7px 0 6px;}
+.t-pic-show ul li{ margin:0 0 3px 3px; float:right; position:relative;}
+.t-pic-show ul li a{ float:left; cursor:pointer;}
+.t-pic-show ul li a:hover{ color:#fff; text-decoration:none;}
+.t-pic-show ul li img{ display:block; overflow:hidden;}
+.t-pic-show ul li .a-bg{display:block; width:100%; height:100%;background:#000; opacity:0;-moz-opacity:0;filter:alpha(opacity=0); position:absolute; top:0; left:0;}
+.t-pic-show ul li .alt{width:100%; position:absolute; top:0; left:0;}
+.t-pic-show ul li .alt h6{font:700 24px/35px Tahoma;color:#fff; line-height:24px;margin:10px 0 0 10px;}
+.t-pic-show ul li .alt p{color:#fff; line-height:20px;padding:0 10px;}
+.t-pic-show li div{ display:none;}
+
+#main .box-white-bd .pk-quick-link{font:700 18px/40px \5fae\8f6f\96c5\9ed1;text-align:center;height:40px;overflow:hidden;margin:0 10px;}
+#main .box-white-bd .pk-quick-link a.refresh{width:831px;float:left;margin-right:3px;color:#858585;background-color:#d4d4d4;}
+#main .box-white-bd .pk-quick-link a.refresh:hover{color:#31a0f7;background-color:#dfe6e9;text-decoration:none;}
+#main .box-white-bd .pk-quick-link a.all{width:136px;float:left;color:#fff;background-color:#008df0;font-weight:100;}
+#main .box-white-bd .pk-quick-link a.all:hover{color:#fff;background-color:#00a8ff;text-decoration:none;}
+
+.pk-continue{height:47px;width:980px;text-align:center;margin:0 auto 55px auto;background:url(pk_bg_line.png) repeat-x 0 center;}
+.pk-continue span{padding:0 20px;background:#202020;display:inline-block;}
+.pk-continue a{width:147px;height:47px;display:inline-block;background:#202020 url(pk_btns.png) no-repeat;}
+.pk-continue a:hover{background-position:0 -47px;}
+
+/*去看看PK排行 and 继续PK按钮-可通用*/
+.btn-pk-rankorcontinue{text-align:center;margin:20px 0;}
+.btn-pk-rankorcontinue a{height:36px;font:700 16px/36px \5b8b\4f53;margin:0 5px;display:inline-block;color:#69c;background:url(pk_btns.png) no-repeat;text-align:left;}
+.btn-pk-rankorcontinue a:hover{color:#31a0f7;text-decoration:none;}
+.btn-pk-rankorcontinue .btn-continue{width:75px;padding-left:54px;background-position:0 -266px;}
+.btn-pk-rankorcontinue .btn-continue:hover{background-position:0 -302px;}
+.btn-pk-rankorcontinue .btn-lookranking{width:113px;padding-left:41px;background-position:0 -338px;}
+.btn-pk-rankorcontinue .btn-lookranking:hover{background-position:0 -374px;}
+
+/*其他图集加PK两字*/
+#aside .pic-show ul li a{width:245px;display:block;position:relative;cursor:pointer;}
+#aside .pic-show ul li a span{position:absolute;bottom:10px;right:0;font:700 36px/1 Arial;padding:5px 8px;color:#fff;background-color:transparent;background-color:rgba(0, 0, 0, 0.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);zoom:1;border-radius:4px 0 0 4px;-moz-border-radius:4px 0 0 4px;-webkit-border-radius:4px 0 0 4px;}
+
+/*TOP移上去的效果*/
+#backtotop:hover{background:url(icon_totop.png) no-repeat 0 -31px !important;}
+
+/*加载提示*/
+.pk-ranking-loading-tips{width:405px;text-align:center;height:34px;line-height:16px;padding-top:16px;border:1px solid #504c4d;background-color:transparent;background-color:rgba(0, 0, 0, 0.5);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7F000000,endColorstr=#7F000000);zoom:1;color:#fff;font-size:16px;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px;position:absolute;top:180px;left:320px;}
+.pk-ranking-loading-tips img{vertical-align:top;margin:0 5px;display:inline-block;}
