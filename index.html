@@ -53,6 +53,12 @@
         .remuse span {
             padding: 0 1rem;
         }
+        .remuse li strong{
+        font-size:1rem;
+        }
+        
+        
+        
 
 
     </style>
@@ -103,17 +109,17 @@
         </div>
         <div>
             <ul class="remuse">
-                <li>我的简历</li>
-                <li>基本资料
+                <li><strong>我的简历</strong></li>
+                <li><strong>基本资料</strong>
                     <p><span>姓名：何文海</span><span>年龄：28</span> <span>手机：15810801763</span> <span>邮箱：
 hewenhai89@126.com</span></p>
                 </li>
-                <li>职业意向
+                <li><strong>职业意向</strong>
                     <p><span>期望职能：WEB前端开发工程师</span></p>
                     <p><span>期望地点：	北京</span></p>
                     <p><span>期望年薪：	20.00 万</span></p>
                 </li>
-                <li>工作经历
+                <li><strong>工作经历</strong>
                     <p><b>2015.06 － 至今</b> <span>中企动力科技股份有限公司</span></p>
                     <p>Web前端工程师:<span> 负责相关产品的需求分析以及前端程序的实现(html,css,js,jq)</span></p>
 
@@ -121,12 +127,12 @@ hewenhai89@126.com</span></p>
                     <p>Web前端工程师:<span>1、负责整个网站的页面制作、实现网站用户交互的效果；</span><span>
 2、负责PC网站前端效果实现</span><span>
 3、对视觉设计的结果进行页面制作（CSS+xhtml+JS）；</span></p>
-                    <p><span></span></p>
+                    <p></p>
                 </li>
-                <li>教育经历
+                <li><strong>教育经历</strong>
                     <p><span>北京广播电视大学（2012/09–2014/06）</span><span>学历：大专</span><span>专业名称：数字媒体技术</span></p>
                 </li>
-                <li>项目经历
+                <li><strong>项目经历</strong>
                     <p><b>2016</b> <span> 中企动力科技有限公司</span></p>
                     <p><span>项目职务：	web 前端开发工程师</span>
                         <span>项目描述：商城建设
@@ -151,7 +157,7 @@ hewenhai89@126.com</span></p>
                         <span>项目业绩：完成了所有设计页面的制作</span>
                     </p>
                 </li>
-                <li>自我评价
+                <li><strong>自我评价</strong>
                     <p><span>1、做事认真负责，性格直爽，热爱学习；</span>2、精通CSS,DIV,HTML
                         <span></span><span>3、熟悉JS,JQ,HTML5,CSS3</span></p>
                 </li>
@@ -192,7 +198,6 @@ hewenhai89@126.com</span></p>
             btnCont[this.index].className = "show animated bounceInRight";
             timerOne=setTimeout(function(){
                 var Top = btnCont[that.index].offsetTop;
-                console.log(Top,winH);
                 if (Top > winH) {
                     var i = 0;
                     var timer = setInterval(function () {
@@ -218,7 +223,6 @@ hewenhai89@126.com</span></p>
         var d = 0.1;
         var aryRGB1 = [r, g, b];
         var aryRGB2 = [r, g, b];
-
         function seting(mathRGB, aryRGB) {
             mathRGB[0] += aryRGB[0];
             mathRGB[1] += aryRGB[1];
