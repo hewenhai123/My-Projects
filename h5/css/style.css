@@ -1,0 +1,397 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.ab {
+  position: absolute;
+}
+img {
+  width: 100%;
+}
+ul li {
+  list-style: none;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  font-family: "Microsoft Yahei";
+}
+.swiper-container .loading {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#1F5AA1 40%, #3D78B5 100%);
+  background: -o-linear-gradient(#1F5AA1 40%, #3D78B5 100%);
+  background: -moz-linear-gradient(#1F5AA1 40%, #3D78B5 100%);
+}
+.swiper-container .loading #can {
+  position: absolute;
+  top: 26%;
+  left: 21%;
+  background: url(../images/roundpg1.png) no-repeat center center;
+  background-size: 74%;
+}
+.swiper-container .sound {
+  display: none;
+  right: 2%;
+  top: 2%;
+  background: url(../images/music.svg) no-repeat center center;
+  background-size: 100%;
+  z-index: 20;
+}
+.swiper-container .soundMove {
+  -webkit-animation: soundMove 3s linear 0s infinite;
+  animation: soundMove 3s linear 0s infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+@-webkit-keyframes soundMove {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(720deg);
+    transform: rotate(720deg);
+  }
+}
+.swiper-container keyframes soundMove 0% {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+.swiper-container keyframes soundMove 100% {
+  -webkit-transform: rotate(720deg);
+  transform: rotate(720deg);
+}
+.swiper-container .swiper-wrapper {
+  width: 100%;
+}
+.swiper-container .swiper-wrapper .swiper-slide {
+  overflow: hidden;
+}
+.swiper-container .swiper-wrapper .swiper-slide p {
+  position: absolute;
+  width: 6%;
+  height: 3%;
+  left: 47%;
+  bottom: 5%;
+}
+.swiper-container .swiper-wrapper .bg {
+  background: #EFEEEE;
+}
+.swiper-container .swiper-wrapper .slide1 {
+  background: linear-gradient(#1F5AA1 40%, #3D78B5 100%);
+  background: -o-linear-gradient(#1F5AA1 40%, #3D78B5 100%);
+  background: -moz-linear-gradient(#1F5AA1 40%, #3D78B5 100%);
+}
+.swiper-container .swiper-wrapper .slide1 .subhead {
+  left: 24%;
+  top: 10%;
+  width: 50%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.swiper-container .swiper-wrapper .slide1 .title {
+  left: 12%;
+  top: 28%;
+  width: 74%;
+}
+.swiper-container .swiper-wrapper .slide1 .contact {
+  right: 7%;
+  bottom: 24%;
+  color: #FFFFFF;
+}
+.swiper-container .swiper-wrapper .slide2 .profile {
+  top: 6%;
+  right: 6%;
+  width: 56%;
+  z-index: 20;
+}
+.swiper-container .swiper-wrapper .slide2 .perIn {
+  top: 9%;
+  right: 13%;
+  width: 33%;
+  z-index: 20;
+}
+.swiper-container .swiper-wrapper .slide2 .headper {
+  top: 7%;
+  left: 11%;
+  width: 40%;
+  z-index: 16;
+}
+.swiper-container .swiper-wrapper .slide2 .content {
+  font-size: 12px;
+}
+.swiper-container .swiper-wrapper .slide2 .content img {
+  left: 12%;
+  width: 5%;
+}
+.swiper-container .swiper-wrapper .slide2 .content .per,
+.swiper-container .swiper-wrapper .slide2 .content .job,
+.swiper-container .swiper-wrapper .slide2 .content .myname,
+.swiper-container .swiper-wrapper .slide2 .content .myjob {
+  top: 36%;
+}
+.swiper-container .swiper-wrapper .slide2 .content .professional,
+.swiper-container .swiper-wrapper .slide2 .content .education,
+.swiper-container .swiper-wrapper .slide2 .content .myprofessional,
+.swiper-container .swiper-wrapper .slide2 .content .myeducation {
+  top: 41%;
+}
+.swiper-container .swiper-wrapper .slide2 .content .school,
+.swiper-container .swiper-wrapper .slide2 .content .myschool {
+  top: 46%;
+}
+.swiper-container .swiper-wrapper .slide2 .content .phone,
+.swiper-container .swiper-wrapper .slide2 .content .myphone {
+  top: 51%;
+}
+.swiper-container .swiper-wrapper .slide2 .content .job,
+.swiper-container .swiper-wrapper .slide2 .content .myjob,
+.swiper-container .swiper-wrapper .slide2 .content .education {
+  left: 56%;
+}
+.swiper-container .swiper-wrapper .slide2 .content .email,
+.swiper-container .swiper-wrapper .slide2 .content .myemail {
+  top: 56%;
+}
+.swiper-container .swiper-wrapper .slide2 .content .myname {
+  left: 20%;
+}
+.swiper-container .swiper-wrapper .slide2 .content .myprofessional,
+.swiper-container .swiper-wrapper .slide2 .content .myschool,
+.swiper-container .swiper-wrapper .slide2 .content .myphone,
+.swiper-container .swiper-wrapper .slide2 .content .myemail {
+  left: 20%;
+}
+.swiper-container .swiper-wrapper .slide2 .content .myjob,
+.swiper-container .swiper-wrapper .slide2 .content .myeducation {
+  left: 63%;
+}
+.swiper-container .swiper-wrapper .slide2 .weixin {
+  bottom: 14%;
+  left: 10%;
+  width: 36%;
+}
+.swiper-container .swiper-wrapper .slide2 .myweixin {
+  bottom: 32%;
+  right: 10%;
+  width: 36%;
+}
+.swiper-container .swiper-wrapper .slide3 .experiences {
+  top: 12%;
+  left: 13%;
+  width: 56%;
+  z-index: 20;
+}
+.swiper-container .swiper-wrapper .slide3 .Information {
+  top: 12%;
+  left: 28%;
+  width: 30%;
+  z-index: 20;
+}
+.swiper-container .swiper-wrapper .slide3 .headjob {
+  top: 7%;
+  right: 8%;
+  width: 34%;
+  z-index: 16;
+  overflow: hidden;
+}
+.swiper-container .swiper-wrapper .slide3 .bar {
+  left: 11%;
+  top: 0;
+  width: 0.5%;
+  height: 80%;
+}
+.swiper-container .swiper-wrapper .slide3 .shade {
+  width: 100%;
+  height: 15%;
+  background: #EFEEEE;
+  z-index: 20;
+}
+.swiper-container .swiper-wrapper .slide3 .barC {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #4A84BE;
+}
+.swiper-container .swiper-wrapper .slide3 ul li {
+  width: 4%;
+  height: 3%;
+  left: 9%;
+  z-index: 20;
+  color: #717071;
+}
+.swiper-container .swiper-wrapper .slide3 ul.dot li:nth-child(1) {
+  top: 11.2%;
+}
+.swiper-container .swiper-wrapper .slide3 ul.dot li:nth-child(2) {
+  top: 30.4%;
+}
+.swiper-container .swiper-wrapper .slide3 ul.dot li:nth-child(3) {
+  bottom: 40%;
+}
+.swiper-container .swiper-wrapper .slide3 ul.dot li:nth-child(4) {
+  bottom: 18%;
+}
+.swiper-container .swiper-wrapper .slide3 h2,
+.swiper-container .swiper-wrapper .slide3 h6 {
+  left: 16%;
+  font-weight: bold;
+  color: #1B528E;
+}
+.swiper-container .swiper-wrapper .slide3 h2 {
+  font-size: 18px;
+}
+.swiper-container .swiper-wrapper .slide3 .time1 {
+  top: 30.6%;
+}
+.swiper-container .swiper-wrapper .slide3 .time2 {
+  top: 57%;
+}
+.swiper-container .swiper-wrapper .slide3 .Company1 {
+  top: 33.4%;
+}
+.swiper-container .swiper-wrapper .slide3 .Company2 {
+  top: 60%;
+}
+.swiper-container .swiper-wrapper .slide3 ul.content li,
+.swiper-container .swiper-wrapper .slide3 ul.content2 li {
+  left: 16%;
+  width: 70%;
+  font-size: 12px;
+}
+.swiper-container .swiper-wrapper .slide3 ul.content1 li:nth-child(1) {
+  top: 39%;
+}
+.swiper-container .swiper-wrapper .slide3 ul.content1 li:nth-child(2) {
+  top: 42.4%;
+}
+.swiper-container .swiper-wrapper .slide3 ul.content1 li:nth-child(3) {
+  top: 48.4%;
+}
+.swiper-container .swiper-wrapper .slide3 ul.content2 li:nth-child(1) {
+  bottom: 31%;
+}
+.swiper-container .swiper-wrapper .slide3 ul.content2 li:nth-child(2) {
+  bottom: 25%;
+}
+.swiper-container .swiper-wrapper .slide3 ul.content2 li:nth-child(3) {
+  bottom: 19%;
+}
+.swiper-container .swiper-wrapper .slide4 .skill {
+  left: 36%;
+  top: 9%;
+  width: 44%;
+  z-index: 20;
+}
+.swiper-container .swiper-wrapper .slide4 .myskill {
+  right: 10%;
+  top: 12%;
+  width: 34%;
+}
+.swiper-container .swiper-wrapper .slide4 .skillhead {
+  left: 14%;
+  top: 11%;
+  width: 34%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .round {
+  left: 5.8%;
+  width: 22%;
+  z-index: 19;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .shade {
+  left: 0;
+  width: 16%;
+  height: 6%;
+  background: #EFEEEE;
+  z-index: 18;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .content {
+  left: 8%;
+  z-index: 20;
+  width: 81%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .progress {
+  left: 12%;
+  height: 3%;
+  background: #4A84BE;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .num {
+  left: 48%;
+  color: #FFFFFF;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_js .round {
+  top: 32.9%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_js .shade {
+  top: 37%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_js .content {
+  top: 34%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_js .progress {
+  top: 37.82%;
+  width: 68%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_js .num {
+  top: 37.4%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_jq .round {
+  top: 46.9%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_jq .shade {
+  top: 51%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_jq .content {
+  top: 48%;
+  width: 81%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_jq .progress {
+  top: 51.84%;
+  width: 65%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_jq .num {
+  top: 51.4%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_h5 .round {
+  top: 60.6%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_h5 .shade {
+  top: 63%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_h5 .content {
+  top: 61.6%;
+  width: 81%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_h5 .progress {
+  top: 65.28%;
+  width: 45%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_h5 .num {
+  top: 65%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_css3 .round {
+  top: 74.9%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_css3 .shade {
+  top: 78%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_css3 .content {
+  top: 76%;
+  width: 81%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_css3 .progress {
+  top: 79.82%;
+  width: 45%;
+}
+.swiper-container .swiper-wrapper .slide4 .profession .profession_css3 .num {
+  top: 79.4%;
+}
